@@ -1,12 +1,19 @@
 import React from 'react';
+
+
+//styles
 import './App.css';
+
+import CatPicture from './components/CatPicture';
 
 function App() {
   return (
     <div className="App">
-      <h2>My App</h2>
+      <CatPicture />
     </div>
   );
 }
+
+
 
 export default App;
